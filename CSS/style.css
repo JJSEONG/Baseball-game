@@ -26,4 +26,75 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
+  z-index: 1;
+  width: calc(100vw - 20px);
+  height: 100vh;
+}
+
+section h1 {
+  color: #ccc;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.ball_answer {
+  text-align: center;
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.ball_question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 30px;
+  font-size: 20px;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
+
+.ball_question span {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.ball_question span em {
+  font-size: normal;
+}
+
+form {
+  display: flex;
+  margin-top: 30px;
+}
+
+form .ball_input {
+  width: 160px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #333;
+  border: none;
+  width: 70px;
+  height: 30px;
+  padding: 0 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover, form button:active, form button:focus {
+  opacity: 0.8;
 }
