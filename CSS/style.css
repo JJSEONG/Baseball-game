@@ -51,10 +51,10 @@ section h1 {
 
 .ball_question {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 500px;
-  height: 200px;
   border-radius: 20px;
   margin-top: 30px;
   padding: 30px;
