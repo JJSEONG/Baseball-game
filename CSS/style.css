@@ -81,6 +81,7 @@ form {
 
 form .ball_input {
   width: 160px;
+  padding: 10px;
   height: 30px;
   border: 1px solid #ccc;
 }
